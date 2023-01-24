@@ -1,0 +1,19 @@
+{
+  "name": "clase-16.1---entrega-final",
+  "version": "1.0.0",
+  "description": "Trabajo Final Correspondiente al Curso de JAVASCRIPT - CODERHOUSE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "java",
+    "javascript",
+    "node",
+    "final",
+    "entrega",
+    "codehouse"
+  ],
+  "author": "Armas Gabriel Andres",
+  "license": "ISC"
+}

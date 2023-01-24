@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>XTREMEGymLR</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap" rel="stylesheet">
+<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Mis CSS -->
+    <link rel="stylesheet" href="xtreme-style.css">
+</head>
+<body>
+  <nav>
+		<p class="logo-web">ALTA de Alumno</p>
+  </nav>
+<section class="forms-abm">
+  <form class="alumno-alta" id="frm_alu-alta">
+    <!-- DNI -->
+    <div class="form-group col-md-2">
+      <label for="inputDNI">DNI</label>
+      <input type="nif" maxlength="8" class="form-control" id="inputDNI" placeholder="DNI" pattern="[0-9]{8}">
+    </div>
+    <!-- Apellido -->
+    <div class="form-group col-md-6">
+      <label for="inputLNAME">Apellido</label>
+      <input type="text" class="form-control" id="inputLNAME" placeholder="Apellido">
+    </div>
+    <!-- Nombre -->
+    <div class="form-group col-md-6">
+      <label for="inputNAME">Nombre</label>
+      <input type="text" class="form-control" id="inputNAME" placeholder="Nombre">
+    </div>
+    <!-- email -->
+    <div class="form-group col-md-6">
+      <label for="inputCity">email</label>
+      <input type="text" class="form-control" id="inputEMAIL" placeholder="Email">
+    </div>
+    <!-- Barrio -->
+    <div class="form-group col-md-5">
+      <label for="inputSTATE">Barrio</label>
+      <select class="form-select" id="inputSTATE">
+        <option selected>Seleciona el Barrio</option>
+      </select>
+    </div>
+    <!-- Programa -->
+    <div class="form-group col-md-5">
+      <label for="inputPROG">Programa</label>
+      <select class="form-select" id="inputPROG">
+        <option selected>Seleciona el Programa</option>
+      </select>
+    </div>
+  </form>
+  <form class="alumno-alta" id="alu-ABMButton">
+      <button type="button" class="btn btn-primary" id="alu-alta">
+        Aceptar
+      </button>
+      <button type="button" class="btn btn-primary" id="alu-cancelar">Cancelar</button>
+  </form>
+</section>
+  <aside>
+    <div id="logo_alumnos"><img src="images/tshirt_xtreme.png" width="100%" height="100%" aling="left" postion="relative"></div>
+  </aside>
+  <script src="./js/alumno.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+</body>
+</html>

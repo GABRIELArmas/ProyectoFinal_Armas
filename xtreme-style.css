@@ -1,0 +1,189 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  height: 100%;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: 50px;
+  background-color: rgba(44,44,44,1);
+  
+}
+
+h2 {
+  color: antiquewhite;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  background: rgb(44,44,44);
+  background: linear-gradient(0deg, rgba(44,44,44,1) 0%, rgba(124,0,0,1) 100%);}
+
+section,aside {
+  margin-top: 5px;
+  padding: 10px;
+  -moz-border-radius:3px;-webkit-border-radius:3px;-o-border-radius:3px;border-radius:3px;
+}
+
+section,footer {
+  padding: 5px;
+  bottom: 0;
+  background-color: #24252a;
+}
+
+section {
+  padding: 5px;
+  margin-left: 5px;
+  float: left;
+  width: 75%;
+  border: 2px solid rgb(27, 26, 21);
+}
+
+aside{
+  margin-right: 5px;
+  float: right;
+  width: 23%;
+  background-image: url("images/backfinger_ctrl.jpg");
+}
+
+thead {
+  background-color: rgba(124,0,0,1);
+}
+
+#title_page {
+  background: rgb(44,44,44);
+}
+
+#mytable {
+  background-color: rgb(44,44,44);
+  color: #fff;
+}
+
+#inputDNI-DIS {
+  background-color: rgb(44,44,44);
+  color:antiquewhite;
+}
+
+#inputDNI-DIS:hover {
+  cursor:no-drop;
+}
+
+#alu-mod-buttom{
+  margin-top: 10px;
+}
+
+.cont-ul {
+  display: flex;
+  align-items: center;
+  color:antiquewhite;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+  padding: 15px;
+  transition:  all .3s ease 0s;
+}
+
+a:link {
+  text-decoration: none;
+  color:antiquewhite;
+ }
+a:hover { 
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color:antiquewhite;
+}
+
+li:hover {
+  background: rgb(44,44,44);
+  background: linear-gradient(0deg, rgba(44,44,44,1) 0%, rgba(124,0,0,1) 100%);
+}
+
+.btn-primary {
+  width: 150px;
+  float:inline-start;
+  vertical-align: bottom;
+}
+
+#alu-ABMButton {
+  text-align: right;
+}
+.mantenimiento {
+  position: relative;
+}
+.mantenimiento:hover > .ul-second {
+  display: block;
+}
+
+.logo-web {
+  padding: 15px;
+  color:antiquewhite;
+}
+
+.alumno-alta {
+  position: relative;
+  padding: 10px;
+}
+
+.forms-abm {
+  background-color: rgba(145, 145, 145, 0.5);
+}
+
+.develop {
+  position: relative;
+}
+.develop:hover > .ul-second {
+  display: block;
+}
+
+.ul-second {
+  display: none;
+  position: absolute;
+  margin-top: 15px;
+}
+
+.ul-second > li {
+  width: 190px;
+  transform: translateX(-20px);
+  border-bottom:solid 1px #fff ;
+  text-align: left;
+  background-color: #24252a;
+}
+
+.ul-second > li:hover {
+  background-color: #180b0b;
+}
+
+.ul-third {
+  position: absolute;
+  transform: translateX(100%);
+  right: 0;
+  top: 40%;
+  display: none;
+  background-color: #24252a;
+}
+
+.ul-third > li {
+  padding: 10px;
+  border-bottom: solid 1px #fff;
+}
+
+.front:hover > .ul-third {
+  display: block;
+}
+
+@media (max-width:900px) {
+  .logo-web {
+      display: none;
+  }
+}
